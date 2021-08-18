@@ -9,14 +9,14 @@ int main() {
 	
 //	X манын аламыз
 	cout << "Engis - X |"; cin >> X;
-	if (X <= 1 && X >= 100) {
-		cout << "Qate! \nEngisu formaty 1 > jane < 100";
+	if (1 <= X | X > 100) {
+		cout << "Qate! X\nEngisu formaty 1 > jane < 100";
 		return 0;
 	}
 	
 //	Y манын енгіз
 	cout << "Engis - Y |"; cin >> Y;
-	if (Y <= 1 && Y >= 100) {
+	if (1 < Y || 100 < Y) {
 		cout << "Qate! \nEngisu formaty 1 > jane < 1000";
 		return 0;
 	}
